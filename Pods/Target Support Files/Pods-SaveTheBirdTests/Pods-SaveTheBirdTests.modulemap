@@ -1,0 +1,6 @@
+framework module Pods_SaveTheBirdTests {
+  umbrella header "Pods-SaveTheBirdTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

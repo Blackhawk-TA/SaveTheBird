@@ -1,0 +1,6 @@
+framework module Pods_SaveTheBird {
+  umbrella header "Pods-SaveTheBird-umbrella.h"
+
+  export *
+  module * { export * }
+}

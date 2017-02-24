@@ -8,53 +8,53 @@
 
 import UIKit
 import SpriteKit
-
-extension SKNode {
-    class func unarchiveFromFile(file : String) -> SKNode? {
-        if let path = NSBundle.mainBundle().pathForResource(file, ofType: "sks") {
-            var sceneData = NSData(contentsOfFile: path, options: .DataReadingMappedIfSafe, error: nil)!
-            var archiver = NSKeyedUnarchiver(forReadingWithData: sceneData)
-            
-            archiver.setClass(self.classForKeyedUnarchiver(), forClassName: "SKScene")
-            let scene = archiver.decodeObjectForKey(NSKeyedArchiveRootObjectKey) as! GameScene
-            archiver.finishDecoding()
-            return scene
-        } else {
-            return nil
-        }
-    }
-}
+import Firebase
 
 class GameViewController: UIViewController {
+    
+    // Properties for Banner Ad
+    let RemovedAds_Defaults = UserDefaults.standard
+    var removedAds = Bool()
+    var bannerVisible = false
+    var googleBannerView: GADBannerView!
+    var interstitial: GADInterstitial!
+    var adShowed = false
+    var adTimer: Timer?
+    
+    //Full Screen ad
+    func createAndLoadAd() -> GADInterstitial {
+        let ad = GADInterstitial(adUnitID: "ca-app-pub-4511874521867277/7948615941")
+        let request = GADRequest()
+        ad.load(request)
+        return ad
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //Set Ads Variable
+        removedAds = RemovedAds_Defaults.bool(forKey: "RemoveAds")
 
-        if let scene = GameScene.unarchiveFromFile("GameScene") as? GameScene {
-            // Configure the view.
-            let skView = self.view as! SKView
-            skView.showsFPS = true
-            skView.showsNodeCount = true
-            
-            /* Sprite Kit applies additional optimizations to improve rendering performance */
-            skView.ignoresSiblingOrder = true
-            
-            /* Set the scale mode to scale to fit the window */
-            scene.scaleMode = .AspectFill
-            
-            skView.presentScene(scene)
-        }
+        let scene = Menu_Main(size: view.bounds.size)
+        let skView = view as! SKView
+        skView.showsFPS = false
+        skView.showsNodeCount = false
+        skView.ignoresSiblingOrder = true
+        scene.scaleMode = .resizeFill
+        skView.presentScene(scene)
+        
+        self.interstitial = self.createAndLoadAd()
     }
 
-    override func shouldAutorotate() -> Bool {
+    override var shouldAutorotate : Bool {
         return true
     }
 
-    override func supportedInterfaceOrientations() -> Int {
-        if UIDevice.currentDevice().userInterfaceIdiom == .Phone {
-            return Int(UIInterfaceOrientationMask.AllButUpsideDown.rawValue)
+    override var supportedInterfaceOrientations : UIInterfaceOrientationMask {
+        if UIDevice.current.userInterfaceIdiom == .phone {
+            return UIInterfaceOrientationMask.allButUpsideDown
         } else {
-            return Int(UIInterfaceOrientationMask.All.rawValue)
+            return UIInterfaceOrientationMask.all
         }
     }
 
@@ -63,7 +63,37 @@ class GameViewController: UIViewController {
         // Release any cached data, images, etc that aren't in use.
     }
 
-    override func prefersStatusBarHidden() -> Bool {
+    override var prefersStatusBarHidden : Bool {
         return true
     }
+    
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        if (!removedAds) {
+            //Show Google Ad Banner
+            googleBannerView = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)
+            googleBannerView.adUnitID = "ca-app-pub-4511874521867277/6471882744"
+            
+            googleBannerView.rootViewController = self
+            let request: GADRequest = GADRequest()
+            googleBannerView.load(request)
+            
+            googleBannerView.frame = CGRect(x: 0, y: view.bounds.height-googleBannerView.frame.size.height, width: googleBannerView.frame.size.width, height: googleBannerView.frame.size.height)
+            
+            self.view.addSubview(googleBannerView)
+            
+            adTimer = Timer.scheduledTimer(timeInterval: 5.0, target: self, selector: #selector(GameViewController.loadAd(_:)), userInfo: nil, repeats: false)
+        }
+    }
+    
+    func loadAd(_ timer:Timer!) {
+        if (self.interstitial.isReady && adShowed == false) {
+            adShowed = true
+            self.interstitial.present(fromRootViewController: self)
+            self.interstitial = self.createAndLoadAd()
+        }
+    }
+
 }

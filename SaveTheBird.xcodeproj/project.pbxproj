@@ -7,14 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3942538CC702DF822A900B63 /* Pods_SaveTheBirdTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B90A4E24CAE3D505118318 /* Pods_SaveTheBirdTests.framework */; };
+		5808EA061DB91EE3008F56A2 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5808EA001DB91EE3008F56A2 /* FirebaseAnalytics.framework */; };
+		5808EA071DB91EE3008F56A2 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5808EA011DB91EE3008F56A2 /* FirebaseInstanceID.framework */; };
+		5808EA081DB91EE3008F56A2 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5808EA021DB91EE3008F56A2 /* GoogleMobileAds.framework */; };
+		5808EA091DB91EE3008F56A2 /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5808EA031DB91EE3008F56A2 /* GoogleInterchangeUtilities.framework */; };
+		5808EA0A1DB91EE3008F56A2 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5808EA041DB91EE3008F56A2 /* GoogleSymbolUtilities.framework */; };
+		5808EA0B1DB91EE3008F56A2 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5808EA051DB91EE3008F56A2 /* GoogleUtilities.framework */; };
+		580C32971D64924A00E25C9C /* SKMultilineLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580C32961D64924A00E25C9C /* SKMultilineLabel.swift */; };
+		580C32A11D64B7EE00E25C9C /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580C329F1D64B7DA00E25C9C /* GoogleMobileAds.framework */; };
+		58164A9D1B76C40A004882AE /* XPBarKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58164A9C1B76C40A004882AE /* XPBarKit.swift */; };
+		58227EFD1C8C687300E17B8F /* Ball_Shot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 58227EFB1C8C687300E17B8F /* Ball_Shot.wav */; };
+		58227EFE1C8C687300E17B8F /* music_standard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 58227EFC1C8C687300E17B8F /* music_standard.mp3 */; };
+		582E32EC1B73915B00316D8A /* StyleKitName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582E32EB1B73915B00316D8A /* StyleKitName.swift */; };
+		58314E8B1D636AE3009EBC78 /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58314E8A1D636AE3009EBC78 /* CustomScrollView.swift */; };
+		584C87441DB52B8A00B7CBB2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 584C87421DB52B8A00B7CBB2 /* LaunchScreen.xib */; };
+		584C87451DB52B8A00B7CBB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584C87431DB52B8A00B7CBB2 /* Main.storyboard */; };
+		5857552B1B7AC5B100E4FC2B /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 585755291B7AC5B100E4FC2B /* Explosion.sks */; };
+		5857552C1B7AC5B100E4FC2B /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 5857552A1B7AC5B100E4FC2B /* spark.png */; };
+		5857552F1B7AC5D900E4FC2B /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5857552E1B7AC5D900E4FC2B /* Fire.sks */; };
+		585755311B7AC5E700E4FC2B /* Smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = 585755301B7AC5E700E4FC2B /* Smoke.sks */; };
+		585755331B7AC60000E4FC2B /* Snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 585755321B7AC60000E4FC2B /* Snow.sks */; };
+		5866CD571C26EB680056C6C4 /* Menu_Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5866CD561C26EB680056C6C4 /* Menu_Settings.swift */; };
+		58855A551DBAAD9E00874173 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58855A541DBAAD9E00874173 /* AVFoundation.framework */; };
 		58C2307B1B738129003B7373 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C2307A1B738129003B7373 /* AppDelegate.swift */; };
-		58C2307D1B738129003B7373 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 58C2307C1B738129003B7373 /* GameScene.sks */; };
 		58C2307F1B738129003B7373 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C2307E1B738129003B7373 /* GameScene.swift */; };
 		58C230811B738129003B7373 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C230801B738129003B7373 /* GameViewController.swift */; };
-		58C230841B738129003B7373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C230821B738129003B7373 /* Main.storyboard */; };
 		58C230861B738129003B7373 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C230851B738129003B7373 /* Images.xcassets */; };
-		58C230891B738129003B7373 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58C230871B738129003B7373 /* LaunchScreen.xib */; };
 		58C230951B738129003B7373 /* SaveTheBirdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C230941B738129003B7373 /* SaveTheBirdTests.swift */; };
+		58C2309F1B7381D3003B7373 /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C2309E1B7381D3003B7373 /* GlobalFunctions.swift */; };
+		58C230A11B7381EE003B7373 /* Menu_Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C230A01B7381EE003B7373 /* Menu_Main.swift */; };
+		58C230A31B7381FA003B7373 /* Menu_Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C230A21B7381FA003B7373 /* Menu_Store.swift */; };
+		58C230A51B738205003B7373 /* Menu_Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C230A41B738205003B7373 /* Menu_Bank.swift */; };
+		58C230A71B73820E003B7373 /* Menu_Scores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C230A61B73820E003B7373 /* Menu_Scores.swift */; };
+		58CA61ED1DB92A2300C9E513 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58CA61EC1DB92A2300C9E513 /* GoogleService-Info.plist */; };
+		58CA61EE1DB92AC700C9E513 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58CA61EC1DB92A2300C9E513 /* GoogleService-Info.plist */; };
+		58FCA84D1B7E667E000E5C71 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FCA84C1B7E667E000E5C71 /* GameKit.framework */; };
+		58FCA84F1B7E6681000E5C71 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FCA84E1B7E6681000E5C71 /* StoreKit.framework */; };
+		623F4D5C408AB1F840EE6469 /* Pods_SaveTheBird.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7AF3A71757AC976355F8F22 /* Pods_SaveTheBird.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,18 +58,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D4C6E604F1D8C274907D51B /* Pods-SaveTheBirdTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaveTheBirdTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SaveTheBirdTests/Pods-SaveTheBirdTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5808EA001DB91EE3008F56A2 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		5808EA011DB91EE3008F56A2 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		5808EA021DB91EE3008F56A2 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		5808EA031DB91EE3008F56A2 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Pods/GoogleInterchangeUtilities/Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		5808EA041DB91EE3008F56A2 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Pods/GoogleSymbolUtilities/Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		5808EA051DB91EE3008F56A2 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Pods/GoogleUtilities/Frameworks/frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		580C32961D64924A00E25C9C /* SKMultilineLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKMultilineLabel.swift; sourceTree = "<group>"; };
+		580C32981D64B51800E25C9C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		580C329F1D64B7DA00E25C9C /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		58164A9C1B76C40A004882AE /* XPBarKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPBarKit.swift; sourceTree = "<group>"; };
+		58227EFB1C8C687300E17B8F /* Ball_Shot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ball_Shot.wav; sourceTree = "<group>"; };
+		58227EFC1C8C687300E17B8F /* music_standard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music_standard.mp3; sourceTree = "<group>"; };
+		582E32EB1B73915B00316D8A /* StyleKitName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleKitName.swift; sourceTree = "<group>"; };
+		58314E8A1D636AE3009EBC78 /* CustomScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
+		584C87421DB52B8A00B7CBB2 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		584C87431DB52B8A00B7CBB2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		585755291B7AC5B100E4FC2B /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		5857552A1B7AC5B100E4FC2B /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		5857552E1B7AC5D900E4FC2B /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
+		585755301B7AC5E700E4FC2B /* Smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Smoke.sks; sourceTree = "<group>"; };
+		585755321B7AC60000E4FC2B /* Snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Snow.sks; sourceTree = "<group>"; };
+		5866CD561C26EB680056C6C4 /* Menu_Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu_Settings.swift; sourceTree = "<group>"; };
+		58855A541DBAAD9E00874173 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		58C230751B738129003B7373 /* SaveTheBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaveTheBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58C230791B738129003B7373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58C2307A1B738129003B7373 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58C2307C1B738129003B7373 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		58C2307E1B738129003B7373 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		58C230801B738129003B7373 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		58C230831B738129003B7373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58C230851B738129003B7373 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		58C230881B738129003B7373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		58C2308E1B738129003B7373 /* SaveTheBirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaveTheBirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58C230931B738129003B7373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58C230941B738129003B7373 /* SaveTheBirdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveTheBirdTests.swift; sourceTree = "<group>"; };
+		58C2309E1B7381D3003B7373 /* GlobalFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
+		58C230A01B7381EE003B7373 /* Menu_Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu_Main.swift; sourceTree = "<group>"; };
+		58C230A21B7381FA003B7373 /* Menu_Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu_Store.swift; sourceTree = "<group>"; };
+		58C230A41B738205003B7373 /* Menu_Bank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu_Bank.swift; sourceTree = "<group>"; };
+		58C230A61B73820E003B7373 /* Menu_Scores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu_Scores.swift; sourceTree = "<group>"; };
+		58CA61EC1DB92A2300C9E513 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		58FCA84B1B7E667B000E5C71 /* SaveTheBird.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SaveTheBird.entitlements; sourceTree = "<group>"; };
+		58FCA84C1B7E667E000E5C71 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		58FCA84E1B7E6681000E5C71 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		6AFAD91B529EA3892CB0624D /* Pods-SaveTheBirdTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaveTheBirdTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SaveTheBirdTests/Pods-SaveTheBirdTests.release.xcconfig"; sourceTree = "<group>"; };
+		A5B90A4E24CAE3D505118318 /* Pods_SaveTheBirdTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaveTheBirdTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7AF3A71757AC976355F8F22 /* Pods_SaveTheBird.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaveTheBird.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D172F86A66CC4AD8C6B8A887 /* Pods-SaveTheBird.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaveTheBird.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SaveTheBird/Pods-SaveTheBird.debug.xcconfig"; sourceTree = "<group>"; };
+		FBA5AA0C912E1AF402243593 /* Pods-SaveTheBird.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaveTheBird.release.xcconfig"; path = "Pods/Target Support Files/Pods-SaveTheBird/Pods-SaveTheBird.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +112,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58855A551DBAAD9E00874173 /* AVFoundation.framework in Frameworks */,
+				5808EA0A1DB91EE3008F56A2 /* GoogleSymbolUtilities.framework in Frameworks */,
+				580C32A11D64B7EE00E25C9C /* GoogleMobileAds.framework in Frameworks */,
+				5808EA091DB91EE3008F56A2 /* GoogleInterchangeUtilities.framework in Frameworks */,
+				5808EA071DB91EE3008F56A2 /* FirebaseInstanceID.framework in Frameworks */,
+				58FCA84D1B7E667E000E5C71 /* GameKit.framework in Frameworks */,
+				58FCA84F1B7E6681000E5C71 /* StoreKit.framework in Frameworks */,
+				623F4D5C408AB1F840EE6469 /* Pods_SaveTheBird.framework in Frameworks */,
+				5808EA081DB91EE3008F56A2 /* GoogleMobileAds.framework in Frameworks */,
+				5808EA0B1DB91EE3008F56A2 /* GoogleUtilities.framework in Frameworks */,
+				5808EA061DB91EE3008F56A2 /* FirebaseAnalytics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +130,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3942538CC702DF822A900B63 /* Pods_SaveTheBirdTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58227EFF1C8C687F00E17B8F /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				58227EFC1C8C687300E17B8F /* music_standard.mp3 */,
+				58227EFB1C8C687300E17B8F /* Ball_Shot.wav */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
+		583821D41B7A726300C871D6 /* StyleKits */ = {
+			isa = PBXGroup;
+			children = (
+				58164A9C1B76C40A004882AE /* XPBarKit.swift */,
+				582E32EB1B73915B00316D8A /* StyleKitName.swift */,
+			);
+			name = StyleKits;
+			sourceTree = "<group>";
+		};
+		5857552D1B7AC5B800E4FC2B /* Particle Effects */ = {
+			isa = PBXGroup;
+			children = (
+				585755291B7AC5B100E4FC2B /* Explosion.sks */,
+				5857552E1B7AC5D900E4FC2B /* Fire.sks */,
+				585755301B7AC5E700E4FC2B /* Smoke.sks */,
+				585755321B7AC60000E4FC2B /* Snow.sks */,
+				5857552A1B7AC5B100E4FC2B /* spark.png */,
+			);
+			name = "Particle Effects";
+			sourceTree = "<group>";
+		};
+		5866CD551C26E9FC0056C6C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58855A541DBAAD9E00874173 /* AVFoundation.framework */,
+				5808EA001DB91EE3008F56A2 /* FirebaseAnalytics.framework */,
+				5808EA011DB91EE3008F56A2 /* FirebaseInstanceID.framework */,
+				5808EA021DB91EE3008F56A2 /* GoogleMobileAds.framework */,
+				5808EA031DB91EE3008F56A2 /* GoogleInterchangeUtilities.framework */,
+				5808EA041DB91EE3008F56A2 /* GoogleSymbolUtilities.framework */,
+				5808EA051DB91EE3008F56A2 /* GoogleUtilities.framework */,
+				580C32981D64B51800E25C9C /* GoogleService-Info.plist */,
+				580C329F1D64B7DA00E25C9C /* GoogleMobileAds.framework */,
+				58FCA84E1B7E6681000E5C71 /* StoreKit.framework */,
+				58FCA84C1B7E667E000E5C71 /* GameKit.framework */,
+				B7AF3A71757AC976355F8F22 /* Pods_SaveTheBird.framework */,
+				A5B90A4E24CAE3D505118318 /* Pods_SaveTheBirdTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		58C2306C1B738129003B7373 = {
 			isa = PBXGroup;
 			children = (
+				5866CD551C26E9FC0056C6C4 /* Frameworks */,
 				58C230771B738129003B7373 /* SaveTheBird */,
 				58C230911B738129003B7373 /* SaveTheBirdTests */,
 				58C230761B738129003B7373 /* Products */,
+				758E46C29CC78FAB476CE649 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +210,17 @@
 		58C230771B738129003B7373 /* SaveTheBird */ = {
 			isa = PBXGroup;
 			children = (
+				58FCA84B1B7E667B000E5C71 /* SaveTheBird.entitlements */,
 				58C2307A1B738129003B7373 /* AppDelegate.swift */,
-				58C2307C1B738129003B7373 /* GameScene.sks */,
-				58C2307E1B738129003B7373 /* GameScene.swift */,
 				58C230801B738129003B7373 /* GameViewController.swift */,
-				58C230821B738129003B7373 /* Main.storyboard */,
-				58C230851B738129003B7373 /* Images.xcassets */,
-				58C230871B738129003B7373 /* LaunchScreen.xib */,
+				58314E8A1D636AE3009EBC78 /* CustomScrollView.swift */,
+				580C32961D64924A00E25C9C /* SKMultilineLabel.swift */,
+				58C2309E1B7381D3003B7373 /* GlobalFunctions.swift */,
+				58C2307E1B738129003B7373 /* GameScene.swift */,
+				58C230A91B738232003B7373 /* Menu */,
+				583821D41B7A726300C871D6 /* StyleKits */,
+				58227EFF1C8C687F00E17B8F /* Sound */,
+				5857552D1B7AC5B800E4FC2B /* Particle Effects */,
 				58C230781B738129003B7373 /* Supporting Files */,
 			);
 			path = SaveTheBird;
@@ -96,7 +229,10 @@
 		58C230781B738129003B7373 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				58C230851B738129003B7373 /* Images.xcassets */,
 				58C230791B738129003B7373 /* Info.plist */,
+				584C87421DB52B8A00B7CBB2 /* LaunchScreen.xib */,
+				584C87431DB52B8A00B7CBB2 /* Main.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -113,9 +249,33 @@
 		58C230921B738129003B7373 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				58CA61EC1DB92A2300C9E513 /* GoogleService-Info.plist */,
 				58C230931B738129003B7373 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58C230A91B738232003B7373 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				58C230A01B7381EE003B7373 /* Menu_Main.swift */,
+				58C230A21B7381FA003B7373 /* Menu_Store.swift */,
+				58C230A41B738205003B7373 /* Menu_Bank.swift */,
+				58C230A61B73820E003B7373 /* Menu_Scores.swift */,
+				5866CD561C26EB680056C6C4 /* Menu_Settings.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		758E46C29CC78FAB476CE649 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D172F86A66CC4AD8C6B8A887 /* Pods-SaveTheBird.debug.xcconfig */,
+				FBA5AA0C912E1AF402243593 /* Pods-SaveTheBird.release.xcconfig */,
+				4D4C6E604F1D8C274907D51B /* Pods-SaveTheBirdTests.debug.xcconfig */,
+				6AFAD91B529EA3892CB0624D /* Pods-SaveTheBirdTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +285,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58C230981B738129003B7373 /* Build configuration list for PBXNativeTarget "SaveTheBird" */;
 			buildPhases = (
+				952E6D192EB44AE2A2592CD8 /* Check Pods Manifest.lock */,
 				58C230711B738129003B7373 /* Sources */,
 				58C230721B738129003B7373 /* Frameworks */,
 				58C230731B738129003B7373 /* Resources */,
+				56E3AF00706E7B69CC4FEC4E /* Embed Pods Frameworks */,
+				95BA9EA41E6BC4A9AD2A354B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,9 +305,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58C2309B1B738129003B7373 /* Build configuration list for PBXNativeTarget "SaveTheBirdTests" */;
 			buildPhases = (
+				7AE6461331B97F3BFDB36D95 /* Check Pods Manifest.lock */,
 				58C2308A1B738129003B7373 /* Sources */,
 				58C2308B1B738129003B7373 /* Frameworks */,
 				58C2308C1B738129003B7373 /* Resources */,
+				E57E1B21DFB8465D71706AA7 /* Embed Pods Frameworks */,
+				23B9CCC057565AE03E25F896 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,14 +328,30 @@
 		58C2306D1B738129003B7373 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Daniel Peters";
 				TargetAttributes = {
 					58C230741B738129003B7373 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = GXGTL94Z38;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					58C2308D1B738129003B7373 = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0800;
 						TestTargetID = 58C230741B738129003B7373;
 					};
 				};
@@ -198,10 +380,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58C230891B738129003B7373 /* LaunchScreen.xib in Resources */,
+				58CA61EE1DB92AC700C9E513 /* GoogleService-Info.plist in Resources */,
+				5857552C1B7AC5B100E4FC2B /* spark.png in Resources */,
+				584C87451DB52B8A00B7CBB2 /* Main.storyboard in Resources */,
+				585755311B7AC5E700E4FC2B /* Smoke.sks in Resources */,
+				5857552B1B7AC5B100E4FC2B /* Explosion.sks in Resources */,
+				5857552F1B7AC5D900E4FC2B /* Fire.sks in Resources */,
+				58227EFE1C8C687300E17B8F /* music_standard.mp3 in Resources */,
 				58C230861B738129003B7373 /* Images.xcassets in Resources */,
-				58C2307D1B738129003B7373 /* GameScene.sks in Resources */,
-				58C230841B738129003B7373 /* Main.storyboard in Resources */,
+				585755331B7AC60000E4FC2B /* Snow.sks in Resources */,
+				584C87441DB52B8A00B7CBB2 /* LaunchScreen.xib in Resources */,
+				58227EFD1C8C687300E17B8F /* Ball_Shot.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,10 +398,104 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58CA61ED1DB92A2300C9E513 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23B9CCC057565AE03E25F896 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaveTheBirdTests/Pods-SaveTheBirdTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56E3AF00706E7B69CC4FEC4E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaveTheBird/Pods-SaveTheBird-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AE6461331B97F3BFDB36D95 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		952E6D192EB44AE2A2592CD8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95BA9EA41E6BC4A9AD2A354B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaveTheBird/Pods-SaveTheBird-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E57E1B21DFB8465D71706AA7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaveTheBirdTests/Pods-SaveTheBirdTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58C230711B738129003B7373 /* Sources */ = {
@@ -220,8 +503,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				58C2307F1B738129003B7373 /* GameScene.swift in Sources */,
+				58C230A11B7381EE003B7373 /* Menu_Main.swift in Sources */,
+				58314E8B1D636AE3009EBC78 /* CustomScrollView.swift in Sources */,
+				58C230A31B7381FA003B7373 /* Menu_Store.swift in Sources */,
 				58C230811B738129003B7373 /* GameViewController.swift in Sources */,
+				5866CD571C26EB680056C6C4 /* Menu_Settings.swift in Sources */,
+				58C2309F1B7381D3003B7373 /* GlobalFunctions.swift in Sources */,
+				582E32EC1B73915B00316D8A /* StyleKitName.swift in Sources */,
+				58C230A51B738205003B7373 /* Menu_Bank.swift in Sources */,
 				58C2307B1B738129003B7373 /* AppDelegate.swift in Sources */,
+				580C32971D64924A00E25C9C /* SKMultilineLabel.swift in Sources */,
+				58164A9D1B76C40A004882AE /* XPBarKit.swift in Sources */,
+				58C230A71B73820E003B7373 /* Menu_Scores.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,25 +536,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		58C230821B738129003B7373 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				58C230831B738129003B7373 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		58C230871B738129003B7373 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				58C230881B738129003B7373 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		58C230961B738129003B7373 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -276,14 +550,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMPRESS_PNG_FILES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -299,7 +578,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -320,13 +599,17 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMPRESS_PNG_FILES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -337,63 +620,108 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		58C230991B738129003B7373 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D172F86A66CC4AD8C6B8A887 /* Pods-SaveTheBird.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = SaveTheBird/SaveTheBird.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMPRESS_PNG_FILES = YES;
+				DEVELOPMENT_TEAM = GXGTL94Z38;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SaveTheBird",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods/FirebaseAnalytics/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseInstanceID/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Pods/Google-Mobile-Ads-SDK/Frameworks",
+					"$(PROJECT_DIR)/Pods/GoogleInterchangeUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Pods/GoogleSymbolUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Pods/GoogleUtilities/Frameworks/frameworks",
+				);
 				INFOPLIST_FILE = SaveTheBird/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TapAdventures.SaveTheBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		58C2309A1B738129003B7373 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBA5AA0C912E1AF402243593 /* Pods-SaveTheBird.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = SaveTheBird/SaveTheBird.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMPRESS_PNG_FILES = YES;
+				DEVELOPMENT_TEAM = GXGTL94Z38;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SaveTheBird",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods/FirebaseAnalytics/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseInstanceID/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Pods/Google-Mobile-Ads-SDK/Frameworks",
+					"$(PROJECT_DIR)/Pods/GoogleInterchangeUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Pods/GoogleSymbolUtilities/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Pods/GoogleUtilities/Frameworks/frameworks",
+				);
 				INFOPLIST_FILE = SaveTheBird/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TapAdventures.SaveTheBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		58C2309C1B738129003B7373 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D4C6E604F1D8C274907D51B /* Pods-SaveTheBirdTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = SaveTheBirdTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TapAdventures.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaveTheBird.app/SaveTheBird";
 			};
 			name = Debug;
 		};
 		58C2309D1B738129003B7373 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AFAD91B529EA3892CB0624D /* Pods-SaveTheBirdTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SaveTheBirdTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TapAdventures.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaveTheBird.app/SaveTheBird";
 			};
 			name = Release;
@@ -417,6 +745,7 @@
 				58C2309A1B738129003B7373 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58C2309B1B738129003B7373 /* Build configuration list for PBXNativeTarget "SaveTheBirdTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +754,7 @@
 				58C2309D1B738129003B7373 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
